@@ -6,8 +6,16 @@ A simple starting configuration for jotting typescript code.  Configured to debu
 
 - fork
 - clone
-- `cd ts-scratch-paper`
-- `npm install`
+- `$ cd ts-scratch-paper`
+- `$ npm install`
+- copy the codewar solution to solution.ts
+- copy the tests to test.ts and remove the first two lines:
+    - `/// <reference path="/runner/typings/mocha/index.d.ts" />`
+    - `/// <reference path="/runner/typings/chai/index.d.ts" />`
+
+## test
+
+- `$ npm test`
 
 ## debugging
 
